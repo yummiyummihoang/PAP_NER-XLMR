@@ -197,9 +197,7 @@ Notebook có hai profile: RTX 3090 dùng batch 32, accumulation 1; RTX 5060 dùn
 
 **Dùng checkpoint có sẵn:** chạy các cell cấu hình, môi trường, dataset và tạo runner trước; sau đó chép `best_model.pt` vào `RUN_DIR`, bỏ qua các cell smoke test/train và chạy test hoặc inference. Để resume, đặt `RESUME = True`, chép `last_checkpoint.pt` vào `RUN_DIR` trước cell train và giữ cấu hình phù hợp với checkpoint. Run được báo cáo đã dừng ở epoch 8 do early stopping.
 
-## Các file cần đưa lên Git
-
-Giữ `README.md`, `.gitignore`, notebook và thư mục output chứa các file nhẹ để hình ảnh và link báo cáo trong README hiển thị đúng:
+## Cấu trúc file
 
 ```text
 .

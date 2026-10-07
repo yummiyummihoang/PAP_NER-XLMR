@@ -1,0 +1,19 @@
+{
+  "dataset_repo": "Leekien0108/PAP_NER",
+  "dataset_revision": "7a0f6b1233667702925baa69c07c55d5d26eb6cd",
+  "metrics": {
+    "loss_per_sentence": 1.266757956922553,
+    "bio_accuracy": 0.9926934191514515,
+    "bio_macro_f1": 0.9759401443074118,
+    "entity_strict_precision_micro": 0.9833357484422548,
+    "entity_strict_recall_micro": 0.9704914906802689,
+    "entity_strict_micro_f1": 0.9768714011516315,
+    "entity_strict_macro_f1": 0.9770718891404047
+  },
+  "dataset": {
+    "truncated_sentences": 0,
+    "discarded_words": 0,
+    "sha256": "1fe8b2992b00bec2457d96c20831421e7a6b9fe5b3b62320f9d0efd1217bde2a",
+    "limit": null
+  }
+}

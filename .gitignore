@@ -1,0 +1,19 @@
+# Large checkpoints and result archives are shared through Google Drive.
+*.pt
+*.zip
+train.log
+test_predictions.json
+
+# Generated runtime files.
+*.pid
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+venv-torch*/
+hf-cache/
+hf-datasets/
+feature-cache/
+smoke/
+tensorboard/
